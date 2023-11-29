@@ -83,6 +83,7 @@ public class Graph {
 
 
     public static void main(String[] args) {
+        //static method can use static variable
         v = 5;
         Graph graph = new Graph();
 
@@ -97,6 +98,7 @@ public class Graph {
         // Print the adjacency list representation of
         // the above graph
         graph.printGraph();
+
         boolean[] vis=new boolean[v];
         for(int i=0;i<v;i++){
             if(vis[i]==false)
