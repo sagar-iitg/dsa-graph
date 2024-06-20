@@ -1,5 +1,6 @@
 package com.sk.graph.adjacencylist;
 
+import java.util.Arrays;
 import java.util.HashSet;
 
 public class Example1 {
@@ -7,6 +8,7 @@ public class Example1 {
 
     public static void main(String[] args) {
         int[][] edges = {{0,1},{1,2},{2,0}};
+        System.out.println(Arrays.deepToString(edges));
         HashSet<Integer>[] graph=new HashSet[3];
 
 
